@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week6</title>
+    <link href="inclass-style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <table class="table1">
+      <!--Table caption should always comes below the table tag-->
+      <caption>
+        All Time Central
+      </caption>
+
+      <colgroup> <!--This is a way to create row column group-->
+        <col id="col1"/> 
+        <col class="daycols" span="7"/> 
+      </colgroup>
+
+      <thead>
+        <!--This is to mention the header-->
+        <tr>
+          <!--In the 1st row, 8 colums will be created-->
+          <th>Time</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>6:00 PM</th>
+          <!-- <td>National News</td>
+            <td>National News</td>
+            <td>National News</td>
+            <td>National News</td>
+            <td>National News</td>
+            <td>National News</td>
+            <td>National News</td> -->
+
+          <!-- If we want to combine the columns, use colspan -->
+          <td colspan="7">National News</td>
+        </tr>
+        <tr>
+          <th>6:30 PM</th>
+          <!-- <td>World News</td>
+            <td>World News</td>
+            <td>World News</td>
+            <td>World News</td>
+            <td>World News</td>
+            <td>World News</td>
+            <td>World News</td> -->
+
+          <!--combining the columns-->
+          <td colspan="7">World News</td>
+        </tr>
+
+        <tr>
+          <th>7:00 PM</th>
+          <!-- Row span is used to cover rows -->
+          <td rowspan="2">Opera Fest</td>
+          <td rowspan="2">Radio U</td>
+          <td rowspan="2">Science Week</td>
+          <td rowspan="2">The Living World</td>
+          <td>Word Play</td>
+          <td>Agri-week</td>
+          <td rowspan="2">Folk Fest</td>
+        </tr>
+
+        <tr>
+          <th>7:30 PM</th>
+          <td>Brain Stew</td>
+          <td>Web deve Forum</td>
+        </tr>
+
+        <tr>
+          <th>8:00 PM</th>
+          <td rowspan="4" colspan="4">The Classical Music</td>
+          <td>Old Time Radio</td>
+          <td rowspan="4">Saturday Night Jazz</td>
+          <td rowspan="4">HTML Tutorial</td>
+        </tr>
+
+        <tr>
+          <th>8:30 PM</th>
+          <td>The Inner Mind</td>
+        </tr>
+
+        <tr>
+          <th>9:00 PM</th>
+          <td rowspan="2">Open Mike Night</td>
+        </tr>
+
+        <tr>
+          <th>9:30 PM</th>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+            <td colspan="8">CSIS 1280 Douglas College, BC</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <dl>
+        <div>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+        </div>
+
+        <div>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheet</dd>
+        </div>
+    </dl>
+
+   <div class="div1">
+      <h1>This is a heading This is a heading This is a heading</h1>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis alias ipsum atque recusandae sit! Eius, exercitationem ex. Ea unde excepturi pariatur, magnam hic quisquam voluptates maiores consectetur mollitia labore.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur soluta quaerat repellendus unde qui commodi ut fugiat ducimus, suscipit repudiandae et, sit ea repellat aut enim dolor harum beatae possimus.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quibusdam quae eius aliquid accusamus vero error odit officiis quam eligendi hic repellendus maiores incidunt sequi possimus, ducimus velit autem quo.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo hic sed iusto harum nam error voluptatem aspernatur esse labore veritatis, officia, placeat eum corporis in perspiciatis ratione maxime voluptate unde.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis architecto odit accusantium! Magnam, eius numquam iste voluptatibus recusandae beatae ex at quam illo harum facilis laboriosam amet consequuntur delectus.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem numquam ullam quo nobis architecto incidunt maxime harum, ad dolore explicabo illum. Impedit provident, quas a quasi harum maxime atque itaque?
+   </div>
+
+  </body>
+</html>

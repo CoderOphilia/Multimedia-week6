@@ -1,0 +1,88 @@
+@charset "utf8";
+
+table.table1{
+    background-color: antiquewhite;
+    border: 5px outset red;
+    font-size: 1em;
+    width:100%;
+    border-spacing: 20px;
+    border-collapse: collapse;
+    /* border-collapse: collapse; This is to avoid the double spacing between the border */
+}
+
+table.table1 th,table.table1 td{
+    /* border: 2px solid black; This will make separate border for each cell, use collapse for not a double border */
+    border: 2px solid rgb(249, 69, 69);
+    vertical-align: top ;
+    padding: 10px;
+}
+
+table.table1 caption{
+    caption-side: bottom;
+    text-align: right;
+}
+
+table.table1 thead{
+    background-color: rgb(120, 45, 132);
+    color: white;
+}
+
+table.table1 tfoot{
+    background-color: rgb(100, 9, 96);
+    color: white;
+}
+
+col#col1{
+    background-color: rgb(31, 211, 217);
+    width: 16%;
+}
+
+col.daycols{
+    background-color: aquamarine;
+    width:12%;
+}
+
+table.table1 thead tr{
+   height: 30px;
+}
+
+table.table1 tbody tr{
+    height: 50px;
+}
+
+dl{
+    display: table;
+    border-collapse: collapse;
+    width:300px;
+    font-size: 2em;
+}
+
+dl div{
+    display: table-row;
+}
+
+dt,dd{
+    display: table-cell;
+    border:2px solid black;
+    vertical-align: top;
+    padding: 5px;
+}
+
+div.div1{
+    /* column-count: 4; */
+    columns:300px 3;
+    text-align: justify;
+    font-size: 1.5em;
+    color: black;
+    column-gap: 60px;
+    background-color: rgb(210, 119, 119);
+    column-rule: 2px solid black;
+    orphans: 3;
+    widows: 3;
+}
+
+div.div1 h1{
+    /* To make sure that the heading is spread all across the columns */
+    column-span: all;
+    text-align: center;
+}
